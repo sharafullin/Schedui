@@ -56,5 +56,8 @@
       },
       "debug" : "bool"	
     },
-    "webui": "http://[HOST]:[PORT:8099]"
+    "webui": "http://[HOST]:[PORT:8099]",
+    "ports": {
+        "8000/tcp": 8000
+      }
   }
